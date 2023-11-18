@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Solution { //to keep track of index
+public class Encryption { //to keep track of index
   public static final String alpha = "abcdefghijklmnopqrstuvwxyz";
 
   public static String encrypt(String message, int shiftKey) {
@@ -26,4 +26,4 @@ public class Solution { //to keep track of index
     key = sc.nextInt();
     System.out.println("\nEncrpyted msg:" + encrypt(message, key));
   } //main method ends
-} //Solution Class End
+} //Encryption Class End
